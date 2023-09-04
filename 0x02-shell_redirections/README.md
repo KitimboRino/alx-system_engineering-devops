@@ -10,3 +10,4 @@ Script that deletes all the regular files (not the directories) with a .js exten
 Script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
 Write a script that writes into the file ls-cw-content the result of the command ls -la. If the file ls-cwd-content already exists, it should be overwritten. If the file ls-0cwd-content does not exist, create it.
 Script that counts the number of directories and sub-directories in the current directory.
+Script that displays the 10 newest files in the current directory.
