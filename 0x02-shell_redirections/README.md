@@ -9,3 +9,4 @@ Script that duplicates the last line of the file iacta.The file iacta will be in
 Script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
 Script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
 Write a script that writes into the file ls-cw-content the result of the command ls -la. If the file ls-cwd-content already exists, it should be overwritten. If the file ls-0cwd-content does not exist, create it.
+Script that counts the number of directories and sub-directories in the current directory.
