@@ -7,3 +7,4 @@ Script to display the first 10 lines of /etc/passwd.
 Script that displays the third line of the file iacta. The file iacta will be in the working directory.
 Script that duplicates the last line of the file iacta.The file iacta will be in the working directory.
 Script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+Script that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
