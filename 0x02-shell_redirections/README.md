@@ -12,3 +12,4 @@ Write a script that writes into the file ls-cw-content the result of the command
 Script that counts the number of directories and sub-directories in the current directory.
 Script that displays the 10 newest files in the current directory.
 Script that takes a list of words as input and prints only words that appear exactly once.
+Script that displays lines containing the pattern “root” from the file /etc/passwd
