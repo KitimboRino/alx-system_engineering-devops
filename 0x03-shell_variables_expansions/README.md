@@ -16,4 +16,5 @@ Letters are lower cases, from a to z. One combination per line. The output shoul
 A script that prints a number with two decimal places, followed by a new line. The number will be stored in the environment variable NUM.
 A script that converts a number from base 10 to base 16.
 A script that encodes and decodes text using the rot13 encryption. Assume ASCII.
-A script prints every other line from the input, starting with the first line.
+A script that prints every other line from the input, starting with the first line.
+A script shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result. WATER is in base water. STIR is in base stir. The result should be in base bestchol.
