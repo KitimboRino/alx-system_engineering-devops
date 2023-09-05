@@ -6,4 +6,5 @@ A script that counts the number of directories in the PATH.
 A script that lists environment variables.
 A script that lists all local variables and environment variables, and functions.
 A script that sreate a script that creates a new local variable. Name: BEST Value: School
-A script that creates a new global variable. Name: BEST Value: School 
+A script that creates a new global variable. Name: BEST Value: School
+A script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line.
