@@ -1,4 +1,4 @@
-![0-simple_web_stack](./0x09-web_infrastructure_design/0-simple_web_stack.png)
+![0-simple_web_stack](./0-simple_web_stack.png)
 This web infrastructure is a basic setup hosting a website accessible through www.foobar.com. It lacks certain crucial features, and we'll delve into the specifics and issues.
 
 ### Components and Roles:
