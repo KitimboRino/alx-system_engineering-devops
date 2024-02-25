@@ -1,4 +1,4 @@
-![0-simple_web_stack](./.png)
+![0-simple_web_stack](./1-distributed_web_infrastructure.png)
 Description:
 
 This distributed web infrastructure aims to reduce traffic to the primary server by distributing the load to a replica server, facilitated by a load balancer responsible for balancing the workload between the primary and replica servers.
