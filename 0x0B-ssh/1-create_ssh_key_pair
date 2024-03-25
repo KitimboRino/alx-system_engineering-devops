@@ -6,4 +6,4 @@ bits=4096
 passphrase="betty"
 
 # Create RSA key pair with passphrase
-ssh-keygen -t rsa -b $bits -N "$passphrase" -f ~/.ssh/$key_name
+ssh-keygen -t rsa -b $bits -f $key_name -N "$passphrase"
