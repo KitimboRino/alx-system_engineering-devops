@@ -1,5 +1,3 @@
-0x0B. SSH
-
 1. **What is a server:**
    A server is a computer or a program that provides functionality, data, or services to other computers, known as clients, over a network. Servers can fulfill various roles such as hosting websites, storing files, managing databases, or providing access to resources.
 
