@@ -1,12 +1,5 @@
 #!/usr/bin/env bash
-# This script creates a symbolic link from the default Nginx site configuration file in sites-available to the sites-enabled directory,
-# then restarts the Nginx service to apply the changes, and finally kills the first Nginx process found to ensure a clean restart.
 
-# Create a symbolic link from the default Nginx site configuration file
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
-
-# Restart the Nginx service to apply the changes
 service nginx restart
-
-# Kill the first Nginx process found to ensure a clean restart
 kill "$(pgrep 'nginx' | head -1)"
