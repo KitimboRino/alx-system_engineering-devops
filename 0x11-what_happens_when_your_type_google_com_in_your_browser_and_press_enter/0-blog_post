@@ -1,0 +1,29 @@
+Unveiling the Journey: What Happens When You Type https://www.google.com and Hit Enter?
+Imagine the simplicity of typing a URL into your browser's address bar and hitting Enter. It's a routine action for billions of internet users worldwide. But have you ever wondered what really happens behind the scenes when you initiate this seemingly simple task? Let's delve into the intricate journey that unfolds when you type "https://www.google.com" and press Enter.
+
+The DNS Request: Navigating the Web Address
+Before your browser can connect to the desired website, it needs to translate the human-readable URL (Universal Resource Locator), such as "google.com," into a machine-readable IP address. This translation is facilitated by DNS (Domain Name System) servers, which match the domain name with its corresponding IP (Internet Protocol) address, allowing your browser to locate the website's server.
+
+The TCP/IP Connection: Establishing Communication
+Following the DNS request, your browser initiates a TCP/IP (Transmission Control Protocol/Internet Protocol) connection with the server hosting Google's website. This connection lays the foundation for data exchange, ensuring seamless communication between your browser and the server.
+
+Firewall Protection: Safeguarding the Connection
+As the connection is established, it passes through any firewalls configured on your network or the server's network. Firewalls act as gatekeepers, filtering incoming and outgoing traffic to protect against unauthorized access and malicious threats.
+
+HTTPS/SSL Encryption: Securing the Transmission
+To ensure privacy and security, the data exchanged between your browser and the server is encrypted using HTTPS (Hypertext Transfer Protocol Secure) with SSL (Secure Sockets Layer) encryption. This encryption shields sensitive information from prying eyes and potential cyber threats.
+
+Load-Balancer Distribution: Optimizing Traffic Flow
+Once the connection is secured, it may pass through a load-balancer, especially in the case of high-traffic websites like Google. Load balancers distribute incoming traffic across multiple servers, optimizing resource utilization and enhancing the website's performance and reliability.
+
+Web Server Handling: Serving Content Requests
+Upon reaching the designated web server, the request for https://www.google.com is received and processed. The web server retrieves the requested web page or resources, such as text, images, or videos, and prepares them for delivery back to your browser.
+
+Application Server Processing: Executing Dynamic Content
+For dynamic websites or web applications, the request may further pass to an application server. Here, server-side scripts or applications process the request, generate dynamic content, and interact with databases or other backend systems to tailor the response based on user input or preferences.
+
+Database Interaction: Fetching Relevant Data
+In scenarios where the requested content relies on data stored in a database, the application server interacts with the database server. Queries are executed, retrieving the necessary information, which is then incorporated into the final response sent back to your browser.
+
+Conclusion: A Seamless Journey Culminating in Content Delivery
+In essence, the journey triggered by typing https://www.google.com and hitting Enter involves a series of orchestrated steps, encompassing DNS resolution, TCP/IP communication, firewall protection, encryption, load-balancing, web server handling, application server processing, and database interaction. Each component plays a crucial role in ensuring a seamless and secure browsing experience, culminating in the delivery of the desired content to your browser with just a simple keystroke.
