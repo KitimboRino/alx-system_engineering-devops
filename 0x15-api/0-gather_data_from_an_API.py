@@ -10,7 +10,7 @@ if __name__ == "__main__":
         user = argv[1]
         url = "https://jsonplaceholder.typicode.com/"
         req = requests.get("{}users/{}".format(url, user))
-        name = req.json().get("name")
+        name = req.json().get("username")
         if name is not None:
             jreq = requests.get(
                 "{}todos?userId={}".format(
