@@ -10,8 +10,8 @@ if __name__ == "__main__":
         user = argv[1]
         url = "https://jsonplaceholder.typicode.com/"
         req = requests.get("{}users/{}".format(url, user))
-        name = req.json().get("username")
-        if name is not None:
+        username = req.json().get("username")
+        if username is not None:
             jreq = requests.get(
                 "{}todos?userId={}".format(
                     url, user)).json()
@@ -22,6 +22,6 @@ if __name__ == "__main__":
                     completedtsk.append(t)
             count = len(completedtsk)
             print("Employee {} is done with tasks({}/{}):"
-                  .format(name, count, alltsk))
+                  .format(username, count, alltsk))
             for title in completedtsk:
                 print("\t {}".format(title.get("title")))
